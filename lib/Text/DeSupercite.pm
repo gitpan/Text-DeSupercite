@@ -8,7 +8,7 @@ use base qw(Exporter);
 
 @EXPORT_OK = qw(desupercite);
 
-$VERSION = '0.5';
+$VERSION = '0.6';
 
 sub desupercite ($;$);
 sub _desupercite_aux ($$);
